@@ -8,6 +8,36 @@ Demo
 
 Create this component in the project.
 
-Call where you need it,
+```txt
+Hamburger.js & hamburger.module.scss
+```
 
-Say, we need in <Header> Component
+Call where you need it,
+Say, we need in **Header Component**
+
+```js
+import { useState } from 'react'
+import Hamburger from './Hamburger'
+
+... // Other imports
+
+export default function Header() {
+
+      const [hamburger, setHamburger] = useState(false)
+
+      ... // Other states
+
+      return(
+          <>
+                ... // Other Components or something else
+
+                // We need hamburger down here
+                  <Hamburger hamburger={hamburger} setHamburger={setHamburger} />
+
+                 ... // Other Components or something else
+
+          </>
+
+      )
+}
+```

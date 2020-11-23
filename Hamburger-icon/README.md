@@ -1,6 +1,7 @@
 # Hamburger Icon
 
 Demo
+
 ![hamburger](./screenshots/hamburger.gif)
 
 # How to use

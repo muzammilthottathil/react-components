@@ -6,13 +6,15 @@ Demo
 
 # How to use
 
-Create this component in the project.
+Create these component in the project.
 
 ```txt
-Hamburger.js & hamburger.module.scss
+- Hamburger.js
+- hamburger.module.scss
 ```
 
 Call where you need it,
+
 Say, we need in **Header Component**
 
 ```js
